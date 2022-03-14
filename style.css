@@ -1,0 +1,559 @@
+
+body{
+    background-color: #202020;
+}
+.main{
+    display: flex;
+    flex-direction: column;   
+}
+
+.container{
+   
+    border-radius: 5px;
+    
+}
+#myNavbar{
+    flex-grow: 0;
+}
+#links li a {
+    transition: 1s;
+    
+}
+
+#links li a:hover{
+    font-size: 25px;
+    background-color: black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 2px 1px #A6A165;
+    color: white;
+}
+
+h2{
+    font-size: 60px;
+    font-style: italic;
+    font-weight: bold;
+    transition: 1s;
+}
+h2:hover{
+    font-size: 70px;
+    box-shadow: 2px 2px 2px 1px #A6A165;
+}
+p{
+    font-size: 25px;
+    transition: 1s;
+}
+p:hover{
+    font-size: 27px;
+    box-shadow: 2px 2px 2px 1px #A6A165;
+}
+h2,p{
+    
+    color: white;
+    border-radius: 2px;
+    padding: 5px;
+    text-shadow: 0 0 3px #A6A165, 0 0 5px #A6A165
+}
+#about{
+    display: flex;
+    margin: auto;
+    width: 90%;
+    height: 600px;
+    border: 1px solid #A6A165;
+    border-radius: 5px;
+    transition: 1s;
+}
+#about:hover , #education:hover  ,#referance:hover{
+    box-shadow: 7px 7px 2px 1px #A6A165;
+}
+#about .text{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    padding: 2px;
+    height: 300px;
+    border-radius: 5px;
+}
+#about img{
+    width: 550px;
+    height: 550px;
+    border-radius: 5px;
+}
+
+#education{
+    display: flex;
+    
+    width: 90%;
+    height: 700px;
+    border: 1px solid #A6A165;
+    padding: 15px;
+    margin: auto;
+    margin-bottom: 50px;
+    transition: 1s;
+    border-radius: 5px;
+}
+
+#education .text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    padding: 50px;
+    
+    width:700px;
+    height: 500px;
+    margin: auto;
+   
+}
+#educationIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#ededucationIcon img{
+    width: 400px;
+    height: 400px;
+}
+#education .text p {
+    width: 550px;
+    justify-content: center;
+}
+
+#experience{
+    display: flex;
+    width: 90%;
+    height: 700px;
+    
+    padding: 15px;
+    margin: auto;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    transition: 1s;
+}
+
+.one ,.two{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:640px;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 5px;
+    border: 1px solid #A6A165 ;
+    box-shadow: 1px 1px 1px 1px #A6A165;
+    transition: 1s;
+}
+.one:hover ,.two:hover {
+    box-shadow: 10px 10px 2px 1px #A6A165;
+}
+.one img{
+    width:300px;
+    height:250px
+}
+.two img{
+    width:300px;
+    height:300px
+}
+
+.two *{
+    display: flex;
+    height: 360px;
+}
+
+#skills{
+    display: flex;
+    width: 90%;
+    height: 700px;
+    
+    padding: 15px;
+    margin: auto;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    transition: 1s;
+}
+.listOne , .listTwo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:540px;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 5px;
+    border: 1px solid #A6A165 ;
+    box-shadow: 1px 1px 1px 1px #A6A165;
+    transition: 1s;
+}
+.listOne:hover , .listTwo:hover , .referance1:hover , .referance2:hover{
+    box-shadow: 5px 5px 2px 1px #A6A165;
+}
+.listOne img , .listTwo img , #referance img{
+    width:150px ;
+    height:150px;
+}
+.listOne * , .listTwo * {
+    padding: 10px;
+    margin: 2px;
+}
+
+#referance{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 700px;
+    
+    padding: 15px;
+    margin: auto;
+    margin-bottom: 50px;
+    transition: 1s;
+    align-items: center;
+    border-radius: 5px;
+}
+.referance1 ,.referance2{
+    border-radius: 5px;
+    border: 1px solid #A6A165;
+    height: 400px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    transition: 1s;
+    align-items: center;
+    justify-content: center;
+    
+}
+.referance1 * ,.referance2 *{
+    margin-top: 10px;
+}
+
+.mainReferance{
+    display: flex;
+   
+}
+.title{
+    text-align: center;
+}
+
+
+#mainFooter{
+    height: 150px;
+    background-color: #A6A165;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    border-radius: 5px;
+    
+    border: 3px solid white;
+    border-radius: 5px;
+    width: 98%;
+    position: relative;
+    bottom: 0;
+}
+.websit{
+    display: flex;
+    width: 250px;
+    justify-content: space-around;
+}
+
+.linkedn , .github , .facebook{
+    transition: 1s;
+}
+
+.linkedn:hover , .github:hover , .facebook:hover{
+    width: 60px;
+    height: 60px;
+}
+
+
+
+#logo{
+    transition: 1s;
+}
+#logo:hover{
+    width: 100px;
+    height: 100px;
+}
+
+.email , .contact{
+    transition: 1s;
+}
+
+.email:hover , .contact:hover{
+    font-size: 20px;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    #educationIcon img{
+        width: 250px;
+        height: 250px;
+    }
+
+
+    .listOne , .listTwo{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height:600px;
+        padding: 10px;
+        margin: 15px;
+
+        
+    }
+
+}
+
+/* Style fot tablet screen  */
+
+@media screen and (min-width: 480px) and (max-width: 768px){
+
+    #about img{
+        width: 250px;
+        height: 250px; 
+    }
+
+
+    .referance1 ,.referance2{
+        border-radius: 5px;
+        border: 1px solid #A6A165;
+        height: 300px;
+        margin: 7px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        
+    }
+
+    #about , #education , #experience , #skills , #referance{
+        width: 80%;
+        height: 450px;
+        
+    }
+    #education .text{
+        width:50%;
+        height: 350px;
+    }
+    #education .text p {
+        width: 300px;
+        justify-content: center;
+    }
+
+
+.one , .two{
+    
+    height: 350px; 
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+.listOne , .listTwo{
+    height:450px;
+    width: 50%;
+    margin-top: 1px;
+    text-align: center;
+}
+
+.listOne img , .listTwo img , #referance img{
+    width:75px ;
+    height:75px;
+}
+
+.one img{
+    width:150px;
+    height:100px
+}
+.two img{
+    width:100px;
+    height:100px
+}
+
+#educationIcon img{
+    width: 200px;
+    height: 200px;
+}
+
+#referance * {
+    margin: 10px;  
+}
+
+#mainFooter{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 70%;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    justify-content: space-between;
+}
+.websit{
+    margin: 25px;
+    width: 60%;
+    padding: 5px;
+    margin: auto;
+}
+
+    h2{
+        font-size:30px;
+    }
+
+    p{
+        font-size:15px;
+        
+    }
+}
+/* Style for mobile Screen */
+@media screen and (max-width: 479px){
+
+    .logo{
+        width: 25px;
+        height: 25px;
+    }
+    #link1 ,#link2 ,#link3 ,#link4 ,#link5 {
+        font-size: 17px;
+        
+    }
+
+
+    #about img{
+        width: 150px;
+        height: 150px;
+    }
+    #about .text{
+        height: 200px;
+    }
+
+    #referance{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 400px;
+        
+        padding: 15px;
+        margin: auto;
+        margin-bottom: 50px;
+        transition: 1s;
+        align-items: center;
+        border-radius: 5px;
+    }
+    .referance1 ,.referance2{
+        border-radius: 5px;
+        border: 1px solid #A6A165;
+        height: 200px;
+        margin: 15px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        transition: 1s;
+        
+    }
+
+
+    #about  , #education , #referance{
+        width: 90%;
+        height: 350px;
+        margin-bottom: 5px;
+    }
+    #education .text{
+        width:150px;
+        height: 150px;
+    }
+    #education .text p {
+        width: 150px;
+        justify-content: center;
+    }
+
+.one , .two{
+    width: 150px;
+    height: 250px;
+    margin: auto;
+}
+.listOne * , .listTwo * {
+    padding: 1px;
+}
+#skills , #experience{
+    display: block;
+    height: 550px;
+}
+
+.listOne , .listTwo , .one , .two{
+    height:250px;
+    width: 90%;
+    margin: 20px;
+}
+
+#referance *{
+    margin: 5px;
+}
+
+
+.listOne img , .listTwo img , #referance img{
+    width:30px ;
+    height:45px;
+}
+
+.one img{
+    width:75px;
+    height:50px
+}
+.two img{
+    width:50px;
+    height:50px
+}
+
+#educationIcon img{
+    width: 100px;
+    height: 100px;
+}
+
+h2,p{
+
+    padding: 1px;
+}
+
+#mainFooter{
+    display: block;
+    height: 250px;
+    width: 250px;
+    padding: 20px;
+}
+.websit{
+    height: 50px;
+    margin: auto;
+    width: 50px;
+    padding: 10px;
+}
+.linkedn , .facebook ,.github {
+    width: 20px;
+    height: 20px;
+    margin: 15PX;
+}
+.phone1 , .phone2{
+    width: 20px;
+    height: 20px;
+    margin: 10PX;
+}
+    h2{
+        font-size:20px;
+    }
+
+    p{
+        font-size:10px;
+        
+    }
+
+
+}
